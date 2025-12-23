@@ -1,6 +1,10 @@
 # Word 格式炼化器（PyQt5 + Word COM）
 
 一个在 **Windows** 上运行的图形化工具，支持拖拽 `.doc/.docx` 文件批量处理，自动清理文档中的 **Tab、连续空格、全角空格/nbsp**，并将 **“假列表”**（例如 `1. `、`（2）`、`-`、`•`）转换为 **Word 的真列表格式**。支持处理 **正文与页眉/页脚**，并可按不同策略命名输出文件。
+<img width="3439" height="1351" alt="image" src="https://github.com/user-attachments/assets/91f96972-d703-45ff-ae27-3aeeae50f3db" />
+<img width="3439" height="1309" alt="image" src="https://github.com/user-attachments/assets/45babc1f-1cfe-4896-a0ec-9150890dff2e" />
+可选多个文件
+<img width="3439" height="1356" alt="image" src="https://github.com/user-attachments/assets/bf8c3044-68f1-4fa9-88ea-af50eb229d7a" />
 
 > 💡 应用基于 **PyQt5** 提供 UI，使用 **win32com（Word COM）** 操作文档内容。线程内调用 `pythoncom.CoInitialize()`，避免多线程 COM 初始化错误。
 
@@ -274,3 +278,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
