@@ -10,6 +10,17 @@
 
 ---
 
+## 📥 下载编译版本（Release）
+
+你可以直接下载已编译好的 Windows 可执行文件，无需安装 Python 或重新打包：
+
+👉 [点击这里下载最新版本](https://github.com/jimmyyuzhiqiu程序）
+- `ing-logo.png`（Logo）
+- `app.ico`（图标）
+- `test.docx`（示例测试文件）
+
+下载后，解压 ZIP 文件，双击 `WordCleaner.exe` 即可运行。
+
 ### 目录结构
 
 ```
@@ -278,4 +289,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
 
